@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+/*
+Theme Name: MIIS WordPress Framework Theme
+Theme URI: URI coming soon
+Description: This is framework that wil help you  get started with building a HTML 5 compatible theme. It is a little more than minialism but not much
+Author: Miri Studios
+Author URI: URI Coming Soon 
+Version: 0.1
+
+*/
+
+
+/*
+	This theme has received inspirations from many places most notably HTML 5 Reset theme by Monkey Do and 
+	The Blank Theme by Chris Coyier & Jeff Star. I started  off with the Blank theme for a lot of my Wordpress 
+	projects but was inspired to create my own HTML 5 version when I saw The HTML 5 Reset Theme. Also I am looking
+	to integrate or at least use some of the features from the Twitter Bootstrap project. 
+	
+	With the MIIS framework theme I wanted to make sure that there was room for adding extra features. This is not
+	meant to be a completely minimalist framework like the others. There will be more features added later on. But it is also not meant
+	to be a full featured theme either. Hopefuly we will get somewhere that is in a nice middle. 
+*/
+
+/*We will try importing our reset and rebuild stylesheets. If it doesn't work out we will go back to the old way*/
+@import url('css/reset.css');
+@import url('css/rebuild.css');
