@@ -1,0 +1,196 @@
+body{
+	font-size: 100%;
+	background: url('../images/back.gif'); 
+}
+
+img{
+	margin: 5px;
+}
+
+p{
+	margin: 0 0 8px 0;
+}
+
+h1{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 1.5em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+h2{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 1.313em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+h3{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 1.125em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+h4{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 0.875em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+h5{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 0.750em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+h6{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 0.625em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+}
+
+#title_head{
+	float:right;
+	margin: 90px 20px 0 0;
+	font-style: italic;
+	font-family: Georgia, serif;
+	font-size: 12px;
+	color: #666;
+}
+
+#main_contain{
+	max-width: 62.5em;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#main_header{
+	width: 100%;
+	height: 150px;
+	margin: 0 0 50px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+#logo{
+	margin: 35px 0 0 100px;
+}
+
+#content_section{
+	width: 100%;
+	margin: 70px 0 0 0;
+}
+
+#article_section{
+	float:left; 
+	width: 40.625em;
+	margin: 0 0 0 20px;
+}
+
+
+/***** SIDEBAR ****/
+
+#sidebar{
+	float: right;
+	outline: yellow;
+	width: 18.750em;
+	padding: 10px 0 0 0;
+	margin: 0 10px 0 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+#sidebar aside{
+	margin: 0 0 60px 40px;
+}
+
+aside li{
+	font-size: 0.750em;
+	list-style: none;
+}
+aside li a{
+	text-decoration: none;
+}
+
+#sidebar .widget{
+	margin: 0 0 60px 40px;
+}
+
+#sidebar .widget li{
+	font-size: 0.750em;
+	list-style: none;
+}
+
+#sidebar .widget li a{
+text-decoration: none;
+color: #666;
+}
+
+.widget .children{
+	margin: 0 0 0 10px;
+}
+
+/***** FOOTER *****/
+
+#footer{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000;
+	background: #000;
+}
+
+.clear{clear:both;}
+
+
+/****WORDPRESS HOOKs***/
+
+.post{
+	margin: 0 0 80px 10px;
+}
+
+.post h2{
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 1.313em;
+	font-style: bold;
+	margin: 0 0 20px 0;
+	
+}
+
+.post h2 a{
+	color: #666;
+	text-decoration: none;
+}
+
+.entry{
+	margin: 0 0 10px 0;
+}
+
+.entry a{
+	text-decoration: none;
+}
+
+.entry object{
+	margin: 0 0 20px 0;
+}
+
+.postmetadata{
+	font-size: 0.750em;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.postmetadata a{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	font-size: 0.750em;
+}
+
+
+#sidebar #search{
+	margin: 0 0 70px 40px;
+}
+
+#comments{
+	color: #666;
+}
